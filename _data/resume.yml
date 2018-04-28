@@ -104,7 +104,10 @@ others: #其他列表显示
     href: http://eggmetrics.com/xamarin-android-notifications-schedule/
   - title: "NavigationDrawer with ExpandableListView in Xamarin.Android:"
     text: NavigationDrawer that has an ExpandableListView
-    href :http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
+    href: http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
+  - title: "Android-Copy-Paste:"
+    text: Easy Windows app to copy paste to your Android device while you develop the next great app.
+    href: https://github.com/Florin-Birgu/Android-Copy-Paste
     items: #单行列表
     - 睡觉
     - 吃饭
