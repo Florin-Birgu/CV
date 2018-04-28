@@ -106,14 +106,15 @@ others: #其他列表显示
   name: 'Publications'
   content: #选择需要的格式
   - Articles and open projects
-  - title: "Xamarin.Android Notifications on a schedule:"
+  - title: "Xamarin.Android Notifications on a schedule: "
     text: Scheduling notifications in Xamarin.Android using the Java.Util.Calendar
     href: http://eggmetrics.com/xamarin-android-notifications-schedule/
-  - title: "NavigationDrawer with ExpandableListView in Xamarin.Android:"
+  - title: "NavigationDrawer with ExpandableListView in Xamarin.Android: "
     text: NavigationDrawer that has an ExpandableListView
     href: http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
-  - title: "Android-Copy-Paste:"
-    text: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
+  - title: "Android-Copy-Paste: "
+    text: 'Windows app to copy paste to your Android device'
+    href: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
     items: #单行列表
     - 睡觉
     - 吃饭
@@ -132,9 +133,9 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  #- text: "简历脚注"
+  - text: "URLS"
   #   href: '/'
-  - text: "URL"
+  - text: "florin-birgu.github.io/CV/"
     href: "https://florin-birgu.github.io/CV/"
 
 #页面额外js脚本，如xx统计
