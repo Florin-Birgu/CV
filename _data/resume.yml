@@ -53,6 +53,11 @@ main: #简历主要内容，
     - problem solving
   - title: Communication skills
     summary: 'team player: since highschool I participated in IT competitions with my team'
+  - title: Languages
+    items: #itmems 可以小块的方式显示
+    - Romanian(Native)
+    - English(C1)
+    - French(B1)
 
 - type: experience
   name: Experience
@@ -83,8 +88,7 @@ main: #简历主要内容，
     detail: Fashion web and mobile app with a creative UI.
     sub: Main developer for the web and also mobile
   - title: Devhumor
-    summary: Projects' introduction or summary
-    detail:
+    detail: The 9gag for developers, an image posting website.
 #      md: _data/demo.md
     sub: Creator of the Android and iOS app
    #可继续添加更多内容
@@ -92,7 +96,7 @@ main: #简历主要内容，
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: 'Publications'
+  name: 'Other things'
   content: #选择需要的格式
   - Articles and open projects
   - title: "Xamarin.Android Notifications on a schedule: "
