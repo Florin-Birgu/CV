@@ -122,7 +122,7 @@ others: #其他列表显示
   name: Certificates #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: "Certificate of Completion: Swift Course"
-    sub: Sololearn
+    detail: Sololearn
   - title: "Certificate of Completion: C# Course"
   - title: "Certificate of Completion: Php Course"
 #    duration: "2011年x月 - 2015年"
