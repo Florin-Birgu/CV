@@ -43,16 +43,23 @@ main: #简历主要内容，
 - type: skills
   # name: "技能"
   content:
-  - title: Job-related skills
-  - title: 'Very good command of Swift, Java, Kotlin, C# and Php'
-  - title: 'iOS 11 and Cocoa Touch(iOS) API'
-  - title: 'Android API'
-  - title: 'good debugger (able to find solutions when the documentation isn’t complete)'
-
+  - title: 'Programming languages:'
+    items: #itmems 可以小块的方式显示
+    - Swift
+    - Java
+    - Kotlin
+    - C#
+    - Php
+  - title: 'APIs:'
+    items:
+    - Cocoa Touch
+    - iOS 11
+    - Android
   - title: Other skills
     items: #itmems 可以小块的方式显示
     - git
     - scrum
+    - good debugger (able to find solutions when the documentation isn’t complete)
     - less/sass
   - title: Communication skills
     summary: 'team player: since highschool I participated in IT competitions with my team'
