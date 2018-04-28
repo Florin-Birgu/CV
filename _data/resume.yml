@@ -56,7 +56,7 @@ main: #简历主要内容，
     - git
     - scrum
   - title: Communication skills
-    summary: team player: since highschool I participated in IT competitions with my team
+    summary: 'team player: since highschool I participated in IT competitions with my team'
 
 - type: experience
   name: Experience
