@@ -59,8 +59,9 @@ main: #简历主要内容，
     items: #itmems 可以小块的方式显示
     - git
     - scrum
-    - good debugger (able to find solutions when the documentation isn’t complete)
+    - good debugger
     - less/sass
+    - problem solving
   - title: Communication skills
     summary: 'team player: since highschool I participated in IT competitions with my team'
 
@@ -112,8 +113,7 @@ others: #其他列表显示
     text: NavigationDrawer that has an ExpandableListView
     href: http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
   - title: "Android-Copy-Paste:"
-    text: Easy Windows app to copy paste to your Android device while you develop the next great app.
-    href: https://github.com/Florin-Birgu/Android-Copy-Paste
+    text: [Easy Windows app to copy paste to your Android device while you develop the next great app.](https://github.com/Florin-Birgu/Android-Copy-Paste)
     items: #单行列表
     - 睡觉
     - 吃饭
