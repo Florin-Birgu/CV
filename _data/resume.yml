@@ -113,7 +113,7 @@ others: #其他列表显示
     text: NavigationDrawer that has an ExpandableListView
     href: http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
   - title: "Android-Copy-Paste:"
-    text: [Easy Windows app to copy paste to your Android device while you develop the next great app.](https://github.com/Florin-Birgu/Android-Copy-Paste)
+    text: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
     items: #单行列表
     - 睡觉
     - 吃饭
