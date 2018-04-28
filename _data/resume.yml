@@ -56,7 +56,7 @@ main: #简历主要内容，
     - git
     - scrum
   - title: Communication skills
-    summary: Consectetur, Adipiscing, Elit
+    summary: team player: since highschool I participated in IT competitions with my team
 
 - type: experience
   name: Experience
@@ -65,18 +65,19 @@ main: #简历主要内容，
     sub: Birgu F.M. Florin I.I.
     duration: "2009 - 2014"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: Creating web platforms in php (Codeigneiter), making websites and themes in Joomla and Wordpress, developing apps for Android
+    - web
+    - android
+    summary: Creating web platforms in php (Codeigneiter), making websites and themes in Joomla and Wordpress, developing apps for Android
     # open: open
     #可以设置open默认展开
   - title: App and web developer
     sub: Netmetrics Solutions S.R.L 
     duration: Nov 2014 - present
     tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
+    - android
+    - iOS
+    - web
+    summary: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
 
 - type: projects
   name: Projects
@@ -88,19 +89,22 @@ main: #简历主要内容，
   - title: Devhumor
     summary: Projects' introduction or summary
     detail:
-      md: _data/demo.md
+#      md: _data/demo.md
     sub: Creator of the Android and iOS app
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
-  name: '其他'
+  name: 'Publications'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
+  - Articles and open projects
+  - title: "Xamarin.Android Notifications on a schedule:"
+    text: Scheduling notifications in Xamarin.Android using the Java.Util.Calendar
+    href: http://eggmetrics.com/xamarin-android-notifications-schedule/
+  - title: "NavigationDrawer with ExpandableListView in Xamarin.Android:"
+    text: NavigationDrawer that has an ExpandableListView
+    href :http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
     items: #单行列表
     - 睡觉
     - 吃饭
@@ -119,7 +123,7 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+  #- text: "简历脚注"
   #   href: '/'
   - text: "URL"
     href: "https://florin-birgu.github.io/CV/"
