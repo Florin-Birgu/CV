@@ -45,7 +45,7 @@ main: #简历主要内容，
   content:
   - title: Job-related skills
     list:
-    - very good command of Swift, Java, Kotlin, C# and Php
+    - title: very good command of Swift, Java, Kotlin, C# and Php
     - iOS 11 and Cocoa Touch(iOS) API
     - Android API
     - very good knowledge of php, html, css and also a bit of less/sass
