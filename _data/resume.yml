@@ -49,7 +49,6 @@ main: #简历主要内容，
     - git
     - scrum
     - ERD
-    - good debugger
     - less/sass
     - problem solving
   - title: Communication skills
@@ -69,7 +68,7 @@ main: #简历主要内容，
     tags:
     - web
     - android
-    summary: Creating web platforms in php (Codeigneiter), making websites and themes in Joomla and Wordpress, developing apps for Android
+    summary: Creating web platforms in php (Codeigniter), making websites and themes in Joomla and Wordpress, developing apps for Android
     # open: open
     #可以设置open默认展开
   - title: App and web developer
