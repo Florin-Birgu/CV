@@ -100,13 +100,13 @@ others: #其他列表显示
   content: #选择需要的格式
   - Articles and open projects
   - title: "Xamarin.Android Notifications on a schedule: "
-    text: Scheduling notifications in Xamarin.Android using the Java.Util.Calendar
+    text: Article about Scheduling notifications in Xamarin.Android using the Java.Util.Calendar
     href: http://eggmetrics.com/xamarin-android-notifications-schedule/
   - title: "NavigationDrawer with ExpandableListView in Xamarin.Android: "
-    text: NavigationDrawer that has an ExpandableListView
+    text: Article on how to create NavigationDrawer that has an ExpandableListView
     href: http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
   - title: "Android-Copy-Paste: "
-    text: 'Windows app to copy paste to your Android device'
+    text: 'Made an Windows app to copy paste to your Android device/emulator'
     href: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
   - title: Certificates
     list:
