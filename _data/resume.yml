@@ -116,7 +116,7 @@ main: #简历主要内容，
     - iOS
     client: Netmetrics Agency SRL
     detail: "Fashion web and mobile app with a creative UI. This is by far the most complex project I've worked on. Some of the technologies used were: Symfony(php framework), Android SDK, iOS, Xamarin, Facebook Authentication, Rest, Notifications."
-    sub: Main developer for the web and also mobile
+    sub: Fullstack web and mobile developer
     list:
     - Create from scratch the website and mobile apps
     - Implement the layout from the design files
