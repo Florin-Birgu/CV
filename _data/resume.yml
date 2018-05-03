@@ -114,6 +114,7 @@ main: #简历主要内容，
     - Xamarin
     - Android
     - iOS
+    - NUnit
     client: Netmetrics Agency SRL
     detail: "Fashion web and mobile app with a creative UI. This is by far the most complex project I've worked on. Some of the technologies used were: Symfony(php framework), Android SDK, iOS, Xamarin, Facebook Authentication, Rest, Notifications."
     sub: Fullstack web and mobile developer
