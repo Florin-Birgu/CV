@@ -82,9 +82,6 @@ layout: default
               {% else %}
                 <h3 class="title">{{ content.title }}</h3>
               {% endif %} 
-              {% if content.sub.size > 0 %}
-                <h4 class="sub">{{ content.sub }}</h4>
-              {% endif %}
               {% if content.client.size > 0 %}
                <i class="client">{{ content.client }}</i>
               {% endif %}
@@ -131,6 +128,10 @@ layout: default
               <p class="summary">{{ content.summary }}</p>
             {% endif %}
 
+            {% if content.sub.size > 0 %}
+              <h4 class="sub">{{ content.sub }}</h4>
+            {% endif %}
+            
             {% if content.list %}
               <ul class="list">
                 {% for li in content.list %}
