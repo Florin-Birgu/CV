@@ -105,6 +105,7 @@ main: #简历主要内容，
     sub: Backend developer
     list:
     - Move the code from simple php to Codeigniter framework
+    - Add a PDF generator
   - title: Outfit Swipe
     duration: 2015 - 2018
     tags:
