@@ -133,7 +133,7 @@ main: #简历主要内容，
     client: Netmetrics Agency SRL
     detail: "The 9gag for developers, an image posting website. My role with devhumor was to create and manage the mobile apps."
 #      md: _data/demo.md
-    sub: Developer of the Android and iOS app
+    sub: Android and iOS developer
     list:
     - Add features to the website
     - Create the mobile apps
