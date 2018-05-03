@@ -131,6 +131,13 @@ layout: default
               <p class="summary">{{ content.summary }}</p>
             {% endif %}
 
+            {% if content.list %}
+              <ul class="list">
+                {% for li in content.list %}
+                  <li class="text">{{ li }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           </article>
           {% endfor %}
         </div>
