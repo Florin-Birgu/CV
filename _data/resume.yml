@@ -85,7 +85,7 @@ main: #简历主要内容，
   content:
   - title: Outfit Swipe
     duration: 2015 - 2018
-    items:
+    tags:
     - Symfony(Php)
     - rest
     - Xamarin
