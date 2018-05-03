@@ -85,6 +85,9 @@ layout: default
               {% if content.sub.size > 0 %}
                 <h4 class="sub">{{ content.sub }}</h4>
               {% endif %}
+              {% if content.client.size > 0 %}
+               <i class="client">{{ content.client }}</i>
+              {% endif %}
             </div>
 
             <div class="info">
@@ -97,9 +100,6 @@ layout: default
               {% endif %}
               {% if content.duration.size > 0 %}
                <i class="time">{{ content.duration }}</i>
-              {% endif %}
-              {% if content.client.size > 0 %}
-               <i class="client">{{ content.client }}</i>
               {% endif %}
             </div>
 
