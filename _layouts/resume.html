@@ -98,6 +98,9 @@ layout: default
               {% if content.duration.size > 0 %}
                <i class="time">{{ content.duration }}</i>
               {% endif %}
+              {% if content.client.size > 0 %}
+               <i class="client">{{ content.client }}</i>
+              {% endif %}
             </div>
 
             {% if content.detail.size > 0 %}
