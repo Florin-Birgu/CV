@@ -88,6 +88,7 @@ main: #简历主要内容，
     tags:
     - Symfony(Php)
     - rest
+    - oAuth
     - Xamarin
     - Android
     - iOS
@@ -100,10 +101,19 @@ main: #简历主要内容，
     - Maintain the code on all the platforms
     - Write unit tests
   - title: Devhumor
+    tags:
+    - rest
+    - Xamarin
+    - Android
+    - iOS
+    - Laravel(Php)
     detail: "The 9gag for developers, an image posting website. My role with devhumor was to create and manage the mobile apps."
 #      md: _data/demo.md
     sub: Developer of the Android and iOS app
-   #可继续添加更多内容
+    list:
+    - Add features to the website
+    - Create the mobile apps
+    - Maintain the code on all the platforms
 
 #others 其他简略内容(列表)
 others: #其他列表显示
