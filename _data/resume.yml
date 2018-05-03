@@ -83,6 +83,28 @@ main: #简历主要内容，
 - type: projects
   name: Projects
   content:
+  - title: Typomapp Android
+    duration: 2011
+    tags:
+    - Android
+    - Java
+    client: AterlierMedia
+    detail: "Android app that contains a map containing about 500 typographers from Gutenberg to the present day that can be selected by date using a 2 knob slider."
+    sub: Front end developer
+    list:
+    - Generate a sqlite database and retrieve the data from it
+    - Extend the android UI slider and add another knob to it
+    
+  - title: Employee Manager
+    duration: 2010 - 2011
+    tags:
+    - Codeigniter(Php)
+    - mySql
+    client: Beat Meili
+    detail: "Employee manager that allowed the employer to track the progress of the employees, generate report and issue salary slips"
+    sub: Backend developer
+    list:
+    - Move the code from simple php to Codeigniter framework
   - title: Outfit Swipe
     duration: 2015 - 2018
     tags:
