@@ -94,10 +94,15 @@ main: #简历主要内容，
     client: Netmetrics Agency SRL
     detail: "Fashion web and mobile app with a creative UI. This is by far the most complex project I've worked on. Some of the technologies used were: Symfony(php framework), Android SDK, iOS, Xamarin, Facebook Authentication, Rest, Notifications."
     sub: Main developer for the web and also mobile
+    list:
+    - Create from scratch the website and mobile apps
+    - Implement the layout from the design files
+    - Maintain the code on all the platforms
+    - Write unit tests
   - title: Devhumor
     detail: "The 9gag for developers, an image posting website. My role with devhumor was to create and manage the mobile apps."
 #      md: _data/demo.md
-    sub: Creator of the Android and iOS app
+    sub: Developer of the Android and iOS app
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
