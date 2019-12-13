@@ -34,25 +34,28 @@ main: #简历主要内容，
   content:
   - title: 'Programming languages:'
     items: #itmems 可以小块的方式显示
+    - C#
     - Swift
     - Java
     - Kotlin
-    - C#
-    - Php
-  - title: 'APIs:'
+    - python
+  - title: 'Technologies and tools:'
     items:
+    - Visual Studio, Rider
+    - Xamarin iOS
+    - iOS 13
     - Cocoa Touch
-    - iOS 11
-    - Android
-  - title: Other skills
-    items: #itmems 可以小块的方式显示
     - git
+    - MVVMLight
+    - Unity Container
+    - Reactive extensions
+    - Android
+  - title: Methodologies
+    items: #itmems 可以小块的方式显示
+    - agile
     - scrum
-    - ERD
-    - less/sass
-    - problem solving
   - title: Communication skills
-    summary: 'team player: since highschool I participated in IT competitions with my team, during my stay at NTT I would hold the meetings when the scrum master was not there'
+    summary: 'team player: since highschool I participated in IT competitions with my team, during my stay at NTT data Romania I would hold the meetings when the scrum master was not there'
   - title: Languages
     items: #itmems 可以小块的方式显示
     - Romanian(Native)
@@ -148,6 +151,37 @@ main: #简历主要内容，
     - Add features to the website
     - Create the mobile apps
     - Maintain the code on all the platforms
+  - title: Confidential
+    duration: June 2018 - Feb 2019
+    tags:
+    - Xamarin
+    - iOS
+    - MVVMLight
+    - Unity Container
+    client: Confidential
+    detail: "Meetings app for board members with a great UI"
+#      md: _data/demo.md
+    sub: iOS developer
+    list:
+    - Add features to app
+    - Fix bugs
+    - Write unit tests
+  - title: Confidential
+    duration: Feb 2019 - present
+    tags:
+    - Xamarin
+    - iOS
+    - MVVMLight
+    - Unity Container
+    client: Confidential
+    detail: "An application similar to dropbox but focused on security"
+#      md: _data/demo.md
+    sub: iOS developer
+    list:
+    - Add features to app
+    - Fix bugs
+    - Write unit tests
+    - Participate in security guild meetings
 
 #others 其他简略内容(列表)
 others: #其他列表显示
@@ -168,7 +202,6 @@ others: #其他列表显示
     list:
     - "Certificate of Completion: Swift Course"
     - "Certificate of Completion: C# Course"
-    - "Certificate of Completion: Php Course"
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
