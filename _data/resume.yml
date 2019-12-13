@@ -41,7 +41,8 @@ main: #简历主要内容，
     - python
   - title: 'Technologies and tools:'
     items:
-    - Visual Studio, Rider
+    - Visual Studio
+    - Rider
     - Xamarin iOS
     - iOS 13
     - Cocoa Touch
