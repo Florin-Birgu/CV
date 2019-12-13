@@ -52,7 +52,7 @@ main: #简历主要内容，
     - less/sass
     - problem solving
   - title: Communication skills
-    summary: 'team player: since highschool I participated in IT competitions with my team'
+    summary: 'team player: since highschool I participated in IT competitions with my team, during my stay at NTT I would hold the meetings when the scrum master wasn't there'
   - title: Languages
     items: #itmems 可以小块的方式显示
     - Romanian(Native)
@@ -73,12 +73,20 @@ main: #简历主要内容，
     #可以设置open默认展开
   - title: App and web developer
     sub: Netmetrics Solutions S.R.L 
-    duration: Nov 2014 - present
+    duration: Nov 2014 - June 2018
     tags: 
     - android
     - iOS
     - web
     summary: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
+  - title: Xamarin iOS developer
+    sub: NTT DATA Romania S.A.
+    duration: June 2018 - present
+    tags: 
+    - iOS
+    - Xamarin
+    - MVVMLight
+    summary: Building apps for iOS using Xamarin and MVVMLight with high emphasis on UX
 
 - type: projects
   name: Projects
