@@ -91,21 +91,6 @@ main: #简历主要内容，
     - Xamarin
     - MVVMLight
     summary: Building apps for iOS using Xamarin and MVVMLight with high emphasis on UX
-
-- type: projects
-  name: Projects
-  content:
-  - title: Typomapp Android
-    duration: 2011
-    tags:
-    - Android
-    - Java
-    client: AterlierMedia
-    detail: "Android app that contains a map containing about 500 typographers from Gutenberg to the present day that can be selected by date using a 2 knob slider."
-    sub: Front end developer
-    list:
-    - Generate a sqlite database and retrieve the data from it
-    - Extend the android UI slider and add another knob to it
     
   - title: Employee Manager
     duration: 2010 - 2011
