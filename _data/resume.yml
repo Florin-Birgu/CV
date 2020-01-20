@@ -91,7 +91,9 @@ main: #简历主要内容，
     - Xamarin
     - MVVMLight
     summary: Building apps for iOS using Xamarin and MVVMLight with high emphasis on UX
-    
+
+- type: projects
+  name: Projects
   - title: Employee Manager
     duration: 2010 - 2011
     tags:
