@@ -4,7 +4,7 @@
 title: "Florin Birgu - Developer"
 lang: "en" #语言设置 zh表示中文 en 表示英语
 name: "Florin Birgu"
-jobtitle: "Mobile Developer" #可空不显示
+jobtitle: "Data Scientist and Mobile Developer" #可空不显示
 #photo: "assets/img/photo.jpg" #照片可空，不显示
 photo: "https://avatars1.githubusercontent.com/u/15515215?s=200&v=4"
 
@@ -34,13 +34,17 @@ main: #简历主要内容，
   content:
   - title: 'Programming languages:'
     items: #itmems 可以小块的方式显示
+    - Python
     - C#
     - Swift
     - Java
     - Kotlin
-    - python
   - title: 'Technologies and tools:'
     items:
+    - Scikit-learn
+    - Pandas
+    - Numpy
+    - Open CV
     - Visual Studio
     - Rider
     - Xamarin iOS
@@ -189,6 +193,7 @@ others: #其他列表显示
     href: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
   - title: Certificates
     list:
+    - "Certificate of Completion: Python Course"
     - "Certificate of Completion: Swift Course"
     - "Certificate of Completion: C# Course"
 #- type: 
