@@ -97,12 +97,12 @@ main: #简历主要内容，
     detail: "A signature extractor from signed documents"
     tags:
     - python
-	- scikit-learn
-	- pdf2image
-	- opencv
-	- pytesseract
-	- OCR
-	- virtualenv
+    - scikit-learn
+    - pdf2image
+    - opencv
+    - pytesseract
+    - OCR
+    - virtualenv
     sub: Python developer,
     list:
     - Develop a console application capable of extracting signatures from pdf documents.
@@ -110,9 +110,9 @@ main: #简历主要内容，
     detail: Predict he 75-day moving average of WTI Oil Prices: from July 16 to August 21, 2020 based on numer of Covid cases"
     tags:
     - scikit-learn
-	- pandas
-	- numpy
-	- facebook prophet
+    - pandas
+    - numpy
+    - facebook prophet
     sub: Data scientist
   - title: AIFashion
     detail: "Identify clothing items, extract their color and suggest complementary ones from Amazon"
