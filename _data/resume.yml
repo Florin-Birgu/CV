@@ -46,15 +46,9 @@ main: #简历主要内容，
     - Numpy
     - Open CV
     - Visual Studio
-    - Rider
     - Xamarin iOS
-    - iOS 13
-    - Cocoa Touch
-    - git
-    - MVVMLight
-    - Unity Container
-    - Reactive extensions
     - Android
+    - git
   - title: Methodologies
     items: #itmems 可以小块的方式显示
     - agile
@@ -94,22 +88,88 @@ main: #简历主要内容，
     - iOS
     - Xamarin
     - MVVMLight
-    summary: Building apps for iOS using Xamarin and MVVMLight with high emphasis on UX
-
+    summary: Building apps python and iOS apps
 - type: projects
   name: Projects
   content:
-  - title: Employee Manager
-    duration: 2010 - 2011
+  - title: Document signature extractor
+    client: Allianz Global Investors
+    detail: "A signature extractor from signed documents"
     tags:
-    - Codeigniter(Php)
-    - mySql
-    client: Beat Meili
-    detail: "Employee manager that allowed the employer to track the progress of the employees, generate report and issue salary slips"
-    sub: Backend developer
+    - python
+	- scikit-learn
+	- pdf2image
+	- opencv
+	- pytesseract
+	- OCR
+	- virtualenv
+    sub: Python developer,
     list:
-    - Move the code from simple php to Codeigniter framework
-    - Add a PDF generator
+    - Develop a console application capable of extracting signatures from pdf documents.
+  - title: Predict the 75-day moving averages of Oil Prices
+    detail: Predict he 75-day moving average of WTI Oil Prices: from July 16 to August 21, 2020 based on numer of Covid cases"
+    tags:
+    - scikit-learn
+	- pandas
+	- numpy
+	- facebook prophet
+    sub: Data scientist
+  - title: AIFashion
+    detail: "Identify clothing items, extract their color and suggest complementary ones from Amazon"
+    tags:
+    - Xamarin
+    - Google Vision API
+    sub: Developer
+    list:
+    - Extract the image labels
+    - Convert the color code to a human friendly and searchable term
+  - title: Confidential
+    duration: 2019 - 2020
+    tags:
+    - Xamarin
+    - iOS
+    - MVVMLight
+    - Unity Container
+    client: Confidential
+    detail: "An application similar to dropbox but focused on security"
+#      md: _data/demo.md
+    sub: iOS developer
+    list:
+    - Add features to app
+    - Fix bugs
+    - Write unit tests
+    - Participate in security guild meetings
+  - title: Confidential
+    duration: 2018 - 2019
+    tags:
+    - Xamarin
+    - iOS
+    - MVVMLight
+    - Unity Container
+    client: Confidential
+    detail: "Meetings app for board members with a great UI"
+#      md: _data/demo.md
+    sub: iOS developer
+    list:
+    - Add features to app
+    - Fix bugs
+    - Write unit tests
+  - title: Devhumor
+    duration: 2016 - 2017
+    tags:
+    - rest
+    - Xamarin
+    - Android
+    - iOS
+    - Laravel(Php)
+    client: Netmetrics Agency SRL
+    detail: "The 9gag for developers, an image posting website. My role with devhumor was to create and manage the mobile apps."
+#      md: _data/demo.md
+    sub: Android and iOS developer
+    list:
+    - Add features to the website
+    - Create the mobile apps
+    - Maintain the code on all the platforms
   - title: Outfit Swipe
     duration: 2015 - 2018
     tags:
@@ -128,54 +188,17 @@ main: #简历主要内容，
     - Implement the layout from the design files
     - Maintain the code on all the platforms
     - Write unit tests
-  - title: Devhumor
-    duration: 2016 - 2017
+  - title: Employee Manager
+    duration: 2010 - 2011
     tags:
-    - rest
-    - Xamarin
-    - Android
-    - iOS
-    - Laravel(Php)
-    client: Netmetrics Agency SRL
-    detail: "The 9gag for developers, an image posting website. My role with devhumor was to create and manage the mobile apps."
-#      md: _data/demo.md
-    sub: Android and iOS developer
+    - Codeigniter(Php)
+    - mySql
+    client: Beat Meili
+    detail: "Employee manager that allowed the employer to track the progress of the employees, generate report and issue salary slips"
+    sub: Backend developer
     list:
-    - Add features to the website
-    - Create the mobile apps
-    - Maintain the code on all the platforms
-  - title: Confidential
-    duration: June 2018 - Feb 2019
-    tags:
-    - Xamarin
-    - iOS
-    - MVVMLight
-    - Unity Container
-    client: Confidential
-    detail: "Meetings app for board members with a great UI"
-#      md: _data/demo.md
-    sub: iOS developer
-    list:
-    - Add features to app
-    - Fix bugs
-    - Write unit tests
-  - title: Confidential
-    duration: Feb 2019 - present
-    tags:
-    - Xamarin
-    - iOS
-    - MVVMLight
-    - Unity Container
-    client: Confidential
-    detail: "An application similar to dropbox but focused on security"
-#      md: _data/demo.md
-    sub: iOS developer
-    list:
-    - Add features to app
-    - Fix bugs
-    - Write unit tests
-    - Participate in security guild meetings
-
+    - Move the code from simple php to Codeigniter framework
+    - Add a PDF generator
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
