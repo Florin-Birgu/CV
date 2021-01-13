@@ -85,12 +85,15 @@ main: #简历主要内容，
     sub: NTT DATA Romania S.A.
     duration: June 2018 - present
     tags: 
+    - python
+    - pandas
+    - numpy
+    - scikit-learn
     - iOS
     - Xamarin
-    - MVVMLight
     summary: Building apps python and iOS apps
 - type: projects
-  name: Python and data science projects
+  name: Projects
   content:
   - title: Sentiment analysis for articles and comments
     detail: "Identify the overall sentiment for articles and their comments"
@@ -136,8 +139,6 @@ main: #简历主要内容，
     list:
     - Extract the image labels
     - Convert the color code to a human friendly and searchable term
-- type: projects
-  name: Projects
   - title: Confidential
     duration: 2019 - 2020
     tags:
