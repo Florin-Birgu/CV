@@ -212,6 +212,19 @@ main: #简历主要内容，
     list:
     - Move the code from simple php to Codeigniter framework
     - Add a PDF generator
+  - title: Various ways to interact with your computer
+    tags:
+    - C++
+    - C#
+    - Video for Windows
+    - infrared
+    - LED
+    - laser
+    detail: "In high school I’ve made several projects to interact with your computer mostly involving a webcam and either a glove with LEDs + integrated mouse(inspired by Minority Report), infrared pen to be used for power point presentations and drawing, a headset with a laser to be used by disabled people bellow the neck, and finally tracking the hands for basic mouse movement."
+    sub: Ddeveloper
+    list:
+    - Implement algorithms to track a specific color
+    - Create prototypes
 #others 其他简略内容(列表)
 others: #其他列表显示
 - type: others #ID可以为空
@@ -229,6 +242,7 @@ others: #其他列表显示
     href: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
   - title: Certificates
     list:
+    - "The Data Science Course 2020: Compete Data Science Bootcamp"
     - "Certificate of Completion: Python Course"
     - "Certificate of Completion: Swift Course"
     - "Certificate of Completion: C# Course"
