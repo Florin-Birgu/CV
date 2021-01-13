@@ -107,7 +107,7 @@ main: #简历主要内容，
     list:
     - Develop a console application capable of extracting signatures from pdf documents.
   - title: Predict the 75-day moving averages of Oil Prices
-    detail: Predict he 75-day moving average of WTI Oil Prices: from July 16 to August 21, 2020 based on numer of Covid cases"
+    detail: "Predict he 75-day moving average of WTI Oil Prices: from July 16 to August 21, 2020 based on numer of Covid cases"
     tags:
     - scikit-learn
     - pandas
