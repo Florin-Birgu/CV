@@ -227,7 +227,7 @@ main: #简历主要内容，
     - LED
     - laser
     detail: "In high school I’ve made several projects to interact with your computer mostly involving a webcam and either a glove with LEDs + integrated mouse(inspired by Minority Report), infrared pen to be used for power point presentations and drawing, a headset with a laser to be used by disabled people bellow the neck, and finally tracking the hands for basic mouse movement."
-    sub: Ddeveloper
+    sub: Developer
     list:
     - Implement algorithms to track a specific color
     - Create prototypes
