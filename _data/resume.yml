@@ -92,8 +92,8 @@ main: #简历主要内容，
     - iOS
     - Xamarin
     summary: Building apps python and iOS apps
-- type: projects
-  name: Projects
+- type: projects2
+  name: Python and data science projects
   content:
   - title: Sentiment analysis for articles and comments
     detail: "Identify the overall sentiment for articles and their comments"
@@ -139,6 +139,8 @@ main: #简历主要内容，
     list:
     - Extract the image labels
     - Convert the color code to a human friendly and searchable term
+- type: projects
+  name: Projects
   - title: Confidential
     duration: 2019 - 2020
     tags:
