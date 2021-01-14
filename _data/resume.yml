@@ -141,6 +141,7 @@ main: #简历主要内容，
     - Convert the color code to a human friendly and searchable term
 - type: projects
   name: Projects
+  content:
   - title: Confidential
     duration: 2019 - 2020
     tags:
