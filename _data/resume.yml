@@ -42,6 +42,7 @@ main: #简历主要内容，
   - title: 'Technologies and tools:'
     items:
     - Scikit-learn
+    - Keras
     - Pandas
     - Numpy
     - Open CV
@@ -86,6 +87,7 @@ main: #简历主要内容，
     duration: June 2018 - present
     tags: 
     - python
+    - keras
     - pandas
     - numpy
     - scikit-learn
@@ -98,6 +100,7 @@ main: #简历主要内容，
   - title: Sentiment analysis for articles and comments
     detail: "Identify the overall sentiment for articles and their comments"
     tags:
+    - keras
     - spacy
     - pandas
     - beautifulsoup4
