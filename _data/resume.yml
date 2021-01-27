@@ -143,6 +143,13 @@ main: #简历主要内容，
     list:
     - Extract the image labels
     - Convert the color code to a human friendly and searchable term
+  - title: Real estate estimator
+    detail: "A program that can estimate the price of real estate based on parameters such as size, location, year, number of rooms and bathrooms"
+    tags:
+    - scikit-learn
+    - pandas
+    - numpy
+    sub: Data scientist
 - type: projects
   name: Projects
   content:
