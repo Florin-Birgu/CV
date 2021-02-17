@@ -82,7 +82,7 @@ main: #简历主要内容，
     - iOS
     - web
     summary: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
-  - title: Xamarin iOS developer
+  - title: Data scientist and mobile developer
     sub: NTT DATA Romania S.A.
     duration: June 2018 - present
     tags: 
@@ -93,7 +93,7 @@ main: #简历主要内容，
     - scikit-learn
     - iOS
     - Xamarin
-    summary: Data scientist and mobile developer
+    summary: Started as a mobile dev and then switched to data science and python.
 - type: projects2
   name: Python and data science projects
   content:
