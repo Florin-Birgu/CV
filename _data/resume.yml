@@ -93,7 +93,7 @@ main: #简历主要内容，
     - scikit-learn
     - iOS
     - Xamarin
-    summary: Building apps python and iOS apps
+    summary: Data scientist and mobile developer
 - type: projects2
   name: Python and data science projects
   content:
