@@ -55,7 +55,7 @@ main: #简历主要内容，
     - agile
     - scrum
   - title: Communication skills
-    summary: 'team player: since highschool I participated in IT competitions with my team, during my stay at NTT data Romania I would hold the meetings when the scrum master was not there'
+    summary: 'team player: since highschool I participated in IT competitions with my team, during my stay at NTT data Romania I acted as backup for the scrum master in the team'
   - title: Languages
     items: #itmems 可以小块的方式显示
     - Romanian(Native)
