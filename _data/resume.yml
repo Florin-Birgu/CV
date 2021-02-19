@@ -65,23 +65,6 @@ main: #简历主要内容，
 - type: experience
   name: Experience
   content:
-  - title: Freelancer web developer
-    sub: Birgu F.M. Florin I.I.
-    duration: "2009 - 2014"
-    tags:
-    - web
-    - android
-    summary: Creating web platforms in php (Codeigniter), making websites and themes in Joomla and Wordpress, developing apps for Android
-    # open: open
-    #可以设置open默认展开
-  - title: App and web developer
-    sub: Netmetrics Solutions S.R.L 
-    duration: Nov 2014 - June 2018
-    tags: 
-    - android
-    - iOS
-    - web
-    summary: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
   - title: Data scientist and mobile developer
     sub: NTT DATA Romania S.A.
     duration: June 2018 - present
@@ -93,7 +76,24 @@ main: #简历主要内容，
     - scikit-learn
     - iOS
     - Xamarin
-    summary: Started as a mobile dev and then switched to data science and python.
+    - docker
+    - kubernetes
+    summary: Started as a mobile dev and then switched to data science and python and a bit of devops.
+  - title: App and web developer
+    sub: Netmetrics Solutions S.R.L 
+    duration: Nov 2014 - June 2018
+    tags: 
+    - android
+    - iOS
+    - web
+    summary: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
+  - title: Freelancer web developer
+    sub: Birgu F.M. Florin I.I.
+    duration: "2009 - 2014"
+    tags:
+    - web
+    - android
+    summary: Creating web platforms in php (Codeigniter), making websites and themes in Joomla and Wordpress, developing apps for Android
 - type: projects2
   name: Python and data science projects
   content:
