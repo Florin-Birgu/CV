@@ -1,0 +1,226 @@
+# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
+# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
+
+title: "Florin Birgu - Xamarin Developer"
+lang: "en" #语言设置 zh表示中文 en 表示英语
+name: "Florin Birgu"
+jobtitle: "Mobile Developer" #可空不显示
+#photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "https://avatars1.githubusercontent.com/u/15515215?s=200&v=4"
+
+#联系方式
+contact: #联系方式连接等3~5行
+- text: "florin.birgu [at] gmail.com" #文本内容
+  href: 'mailto:florin.birgu@gmail.com' #链接，无链接则空  
+  icon: 'icons/email.svg' #图标 svg文件
+- text: "+40 761 493 356"
+  href: 'tel:0040761493356'
+  icon: 'icons/phone.svg'
+- text: "LinkedIn"
+  href: 'https://www.linkedin.com/in/florin-birgu-11646246/'
+  icon: 'icons/web.svg'
+- text: "GitHubID"
+  href: 'https://github.com/Florin-Birgu'
+  icon: "icons/github.svg"
+  attr: 'target="_blank"' #新标签页打开
+- text: "Cluj-Napoca, Romania"
+  icon: "icons/location.svg"
+
+#main下面是主体内容，类别条数不限
+main: #简历主要内容，
+
+- type: skills
+  # name: "技能"
+  content:
+  - title: 'Programming languages:'
+    items: #itmems 可以小块的方式显示
+    - C#
+    - Swift
+    - Java
+    - Kotlin
+    - Python
+  - title: 'Technologies and tools:'
+    items:
+    - Visual Studio
+    - Rider
+    - Xamarin iOS
+    - iOS 14
+    - Cocoa Touch
+    - git
+    - MVVMLight
+    - Unity Container
+    - Reactive extensions
+    - Android
+    - Python
+    - Data Science / Machine learning
+  - title: Methodologies
+    items: #itmems 可以小块的方式显示
+    - agile
+    - scrum
+  - title: Communication skills
+    summary: 'team player: since highschool I participated in IT competitions with my team, during my stay at NTT data Romania I acted as backup for the scrum master in the team'
+  - title: Languages
+    items: #itmems 可以小块的方式显示
+    - Romanian(Native)
+    - English(C1)
+    - French(B1)
+
+- type: experience
+  name: Experience
+  content:
+  - title: Mobile developer
+    sub: NTT DATA Romania S.A.
+    duration: June 2018 - present
+    tags: 
+    - iOS
+    - Xamarin
+    - MVVMLight
+    summary: Building apps for iOS using Xamarin and MVVMLight with high emphasis on UX
+  - title: App and web developer
+    sub: Netmetrics Solutions S.R.L 
+    duration: Nov 2014 - June 2018
+    tags: 
+    - android
+    - iOS
+    - web
+    summary: Building apps for Android and iOS, creating web apps and API servers in Symfony, managing Linux servers
+  - title: Freelancer web developer
+    sub: Birgu F.M. Florin I.I.
+    duration: "2009 - 2014"
+    tags:
+    - web
+    - android
+    summary: Creating web platforms in php (Codeigniter), making websites and themes in Joomla and Wordpress, developing apps for Android
+
+- type: projects
+  name: Projects
+  content:
+  - title: Confidential
+    duration: 2019 - 2020
+    tags:
+    - Xamarin
+    - iOS
+    - MVVMLight
+    - Unity Container
+    client: Confidential
+    detail: "An application similar to dropbox but focused on security"
+#      md: _data/demo.md
+    sub: iOS developer
+    list:
+    - Add features to app
+    - Fix bugs
+    - Write unit tests
+    - Participate in security guild meetings
+  - title: Confidential
+    duration: 2018 - 2019
+    tags:
+    - Xamarin
+    - iOS
+    - MVVMLight
+    - Unity Container
+    client: Confidential
+    detail: "Meetings app for board members with a great UI"
+#      md: _data/demo.md
+    sub: iOS developer
+    list:
+    - Add features to app
+    - Fix bugs
+    - Write unit tests
+  - title: Devhumor
+    duration: 2016 - 2017
+    tags:
+    - rest
+    - Xamarin
+    - Android
+    - iOS
+    - Laravel(Php)
+    client: Netmetrics Agency SRL
+    detail: "The 9gag for developers, an image posting website. My role with devhumor was to create and manage the mobile apps."
+#      md: _data/demo.md
+    sub: Android and iOS developer
+    list:
+    - Add features to the website
+    - Create the mobile apps
+    - Maintain the code on all the platforms
+  - title: Outfit Swipe
+    duration: 2015 - 2018
+    tags:
+    - Symfony(Php)
+    - rest
+    - oAuth
+    - Xamarin
+    - Android
+    - iOS
+    - NUnit
+    client: Netmetrics Agency SRL
+    detail: "Fashion web and mobile app with a creative UI. This is by far the most complex project I've worked on. Some of the technologies used were: Symfony(php framework), Android SDK, iOS, Xamarin, Facebook Authentication, Rest, Notifications."
+    sub: Fullstack web and mobile developer
+    list:
+    - Create from scratch the website and mobile apps
+    - Implement the layout from the design files
+    - Maintain the code on all the platforms
+    - Write unit tests
+  - title: Employee Manager
+    duration: 2010 - 2011
+    tags:
+    - Codeigniter(Php)
+    - mySql
+    client: Paradise Jeans
+    detail: "Employee manager that allowed the employer to track the progress of the employees, generate report and issue salary slips"
+    sub: Backend developer
+    list:
+    - Move the code from simple php to Codeigniter framework
+    - Add a PDF generator
+  - title: Various ways to interact with your computer
+    tags:
+    - C++
+    - C#
+    - Video for Windows
+    - infrared
+    - LED
+    - laser
+    detail: "In high school I’ve made several projects to interact with your computer mostly involving a webcam and either a glove with LEDs + integrated mouse(inspired by Minority Report), infrared pen to be used for power point presentations and drawing, a headset with a laser to be used by disabled people bellow the neck, and finally tracking the hands for basic mouse movement."
+    sub: Developer
+    list:
+    - Implement algorithms to track a specific color
+    - Create prototypes
+#others 其他简略内容(列表)
+others: #其他列表显示
+- type: others #ID可以为空
+  name: 'Other things'
+  content: #选择需要的格式
+  - Articles and open projects
+  - title: "Xamarin.Android Notifications on a schedule: "
+    text: Article about Scheduling notifications in Xamarin.Android using the Java.Util.Calendar
+    href: http://eggmetrics.com/xamarin-android-notifications-schedule/
+  - title: "NavigationDrawer with ExpandableListView in Xamarin.Android: "
+    text: Article on how to create NavigationDrawer that has an ExpandableListView
+    href: http://eggmetrics.com/navigationdrawer-expandablelistview-xamarin-android/
+  - title: "Android-Copy-Paste: "
+    text: 'Made an Windows app to copy paste to your Android device/emulator'
+    href: 'https://github.com/Florin-Birgu/Android-Copy-Paste'
+  - title: Certificates
+    list:
+    - "The Data Science Course 2020: Compete Data Science Bootcamp"
+    - "Certificate of Completion: Python Course"
+    - "Certificate of Completion: Swift Course"
+    - "Certificate of Completion: C# Course"
+#- type: 
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
+  screen:
+  - text: "URLS"
+  #   href: '/'
+  - text: "florin-birgu.github.io/CV/"
+    href: "https://florin-birgu.github.io/CV/"
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载
